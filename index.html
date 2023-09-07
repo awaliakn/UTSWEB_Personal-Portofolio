@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My Portofolio</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML" name="keywords">
+    <meta content="Free HTML" name="description">
+
+    <!-- Favicon: digunakan untuk menambahkan favicon pada sebuah website. 
+    Favicon adalah ikon kecil yang ditampilkan di tab browser saat pengguna mengunjungi situs web.
+    Ini adalah tag <link> yang menghubungkan halaman web dengan berkas CSS dari Font Awesome. 
+    Font Awesome adalah kumpulan ikon dan simbol yang sangat populer yang dapat digunakan dalam desain web. -->
+    <link href="img/favicon.ico" rel="icon"> 
+
+    <!-- Google Web Fonts: Kode tersebut digunakan untuk mengimpor jenis huruf (font) dari Google Web Fonts ke dalam halaman web. -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet"> 
+
+    <!-- Font Awesome: Kode ini digunakan untuk mengimpor Font Awesome ke dalam halaman web. 
+    Dengan mengimpor Font Awesome, kita dapat menggunakan berbagai ikon dan simbol yang tersedia dari Font Awesome dalam halaman web dengan mudah. 
+    Ini memungkinkan untuk meningkatkan tampilan dan fungsionalitas halaman web dengan ikon-ikon yang siap pakai. -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Libraries Stylesheet: Kode tersebut digunakan untuk mengimpor dua berkas stylesheet dari pustaka (libraries) yang berbeda. -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet: Script tersebut adalah elemen HTML yang digunakan untuk menghubungkan atau memasukkan berkas stylesheet kustom ke dalam halaman web. 
+    Lebih khusus lagi, ini mengacu pada penggunaan Bootstrap Stylesheet yang telah disesuaikan atau disunting sesuai dengan kebutuhan proyek web tertentu. -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="51">
+
+    <!-- Navbar Start: kode ini menghasilkan navbar yang akan membantu pengguna untuk dengan mudah menjelajahi berbagai bagian dari situs web Anda.
+     Navbar ini memiliki beberapa atribut styling dan perilaku yang dapat disesuaikan sesuai dengan desain dan kebutuhan situs web.  -->
+    <nav class="navbar fixed-top shadow-sm navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-lg-5">
+        <a href="index.html" class="navbar-brand ml-lg-3">
+            <h1 class="m-0 display-5"><span class="text-primary">Porto</span>Folio</h1>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse px-lg-3" id="navbarCollapse">
+            <div class="navbar-nav m-auto py-0">
+                <a href="#home" class="nav-item nav-link active">Home</a>
+                <a href="#about" class="nav-item nav-link">About</a>
+                <a href="#qualification" class="nav-item nav-link">Quality</a>
+                <a href="#skill" class="nav-item nav-link">Skill</a>
+                <a href="#service" class="nav-item nav-link">Service</a>
+                <a href="#portfolio" class="nav-item nav-link">Portfolio</a>
+                <a href="#contact" class="nav-item nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+ 
+
+    <!-- Header Start: digunakan untuk membuat bagian header atau bagian atas dari halaman web. 
+    Ini adalah bagian pertama yang dilihat oleh pengunjung ketika mereka mengunjungi halaman web saya. Header yang menarik dengan latar belakang biru, teks, tombol aksi, dan gambar profil. 
+    Header adalah bagian penting dari desain halaman web yang biasanya berisi informasi tentang pengguna atau situs web tersebut serta tautan-tautan aksi yang relevan. -->
+    <div class="container-fluid bg-primary d-flex align-items-center mb-5 py-5" id="home" style="min-height: 100vh;">
+        <div class="container">
+            <div class="row align-items-center">
+               
+                <div class="col-lg-7 text-center text-lg-left">
+                    <h3 class="text-white font-weight-normal mb-3">Hello, my name</h3>
+                    <h1 class="display-3 text-uppercase text-primary mb-2" style="-webkit-text-stroke: 4px #ffffff;">Awalia Khoirunnisac</h1>
+                    <h1 class="typed-text-output d-inline font-weight-lighter text-white"></h1>
+                    <div class="typed-text d-none">Web Designer, Web Developer, Apps Designer, Graphic design, UI/UX Designer</div>
+                    <div class="d-flex align-items-center justify-content-center justify-content-lg-start pt-5">
+                        <a href="https://drive.google.com/file/d/1hOMHeDr26aBRvRBJ4AmHUM3Jgk5NgX6Q/view?usp=drive_link" download="awalia_cv.jpg" class="btn btn-white mr-4">Download CV</a>
+                        
+                        <a href="https://youtu.be/MyRyVoQd5mw?si=3JNWwQwA_ZtOP4fn" class="btn btn-blue d-none d-sm-block">Play Video</a>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col-lg-6 px-8 pl-lg-0 pb-5 pb-lg-4 about-img">
+                    <img class="img-fluid w-100 rounded-circle shadow-sm" src="img/flower.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Header End -->
+
+
+    <!-- About Start: Bagian tersebut digunakan untuk menciptakan bagian "About Me" yang memberikan informasi tentang pemilik situs web atau pengguna. 
+    Ini adalah bagian penting dari sebuah portofolio atau situs web pribadi yang membantu pengunjung untuk mengenal lebih baik tentang pengguna atau pemilik situs web. -->
+    <div class="container-fluid py-5" id="about">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">About</h1>
+                <h1 class="position-absolute text-uppercase text-primary">About Me</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-lg-5 pb-4 pb-lg-0">
+                    <img class="img-fluid rounded w-100" src="img/flower.jpg" alt="">
+                </div>
+                <div class="col-lg-7">
+                    <h3 class="mb-4">I am a student at Telkom School</h3>
+                    <p style="text-align: justify;">Hello, Nama saya Awalia Khoirunnisac seorang siswa di SMK Telkom Purwokerto 
+                        dan saya memiliki cita-cita besar untuk menjadi seorang web developer. 
+                        Saya selalu merasa terpikat oleh dunia web dan teknologi sejak saya masih kecil, 
+                        dan impian saya adalah mengubah ketertarikan itu menjadi karir yang sukses.</p>
+                    <div class="row mb-3">
+                        <div class="col-sm-6 py-2"><h6>Name: <span class="text-secondary">Awalia Khoirunnisac</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Birthday: <span class="text-secondary">3 Juni 2007</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Degree: <span class="text-secondary">Not yet available</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Email: <span class="text-secondary">awaliakhoirunnisac@gmail.com</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Address: <span class="text-secondary">Indonesia, Central Java</span></h6></div>
+                        <div class="col-sm-6 py-2"><h6>Freelance: <span class="text-secondary">Not yet available</span></h6></div>
+                    </div>
+                    <a href="https://sites.google.com/student.smktelkom-pwt.sch.id/myportfolio-awalia/home" class="btn btn-outline-primary">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+
+    
+    <!-- Skill Start: Bagian tersebut digunakan untuk menyajikan keterampilan atau keahlian pengguna atau pemilik situs web dengan cara visual yang jelas dan informatif.
+     Hal ini membantu pengunjung untuk memahami sejauh mana pengguna menguasai berbagai keterampilan yang relevan dengan bidangnya. -->
+    <div class="container-fluid py-5" id="skill">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Skills</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Skills</h1>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">HTML</h6>
+                            <h6 class="font-weight-bold">90%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-primary" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">CSS</h6>
+                            <h6 class="font-weight-bold">85%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">PHP</h6>
+                            <h6 class="font-weight-bold">50%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Javascript</h6>
+                            <h6 class="font-weight-bold">50%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Angular JS</h6>
+                            <h6 class="font-weight-bold">10%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-dark" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                    <div class="skill mb-4">
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-bold">Wordpress</h6>
+                            <h6 class="font-weight-bold">10%</h6>
+                        </div>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" role="progressbar" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Skill End -->
+
+
+
+
+    <!-- Qualification Start --> <!--Bagian tersebut digunakan untuk membuat bagian "Qualification" atau "Kualifikasi" dalam halaman web. 
+    Bagian ini mencakup informasi tentang pendidikan dan pengalaman pengguna atau pemilik situs web. Setiap bagian dalam "Qualification" memiliki ikon bulatan (dot) dan tampilan batas vertikal yang menambahkan elemen desain yang menarik pada halaman. 
+    Tujuan dari script ini adalah untuk memberikan informasi yang jelas tentang pendidikan dan pengalaman pengguna atau pemilik situs web sehingga pengunjung dapat lebih memahami latar belakang dan kualifikasinya. -->
+
+    <div class="container-fluid py-5" id="qualification">
+    <div class="container">
+        <div class="position-relative d-flex align-items-center justify-content-center">
+            <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Quality</h1>
+            <h1 class="position-absolute text-uppercase text-primary">Education & Expericence</h1>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h3 class="mb-4">My Education</h3>
+                <div class="border-left border-primary pt-2 pl-4 ml-2">
+                    <div class="position-relative ex-me mb-4">
+                        <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -35px; font-size: 22px;"></i>
+                        <h5 class="font-weight-bold mb-1">Middle school graduate</h5>
+                            <p class="mb-2"><strong>SMP Negeri 2 Nusawungu</strong> | <small>2019 - 2022</small></p>
+                            <p>Pada tahun 2019, saya memulai perjalanan edukasi saya di SMP Negeri 2 Nusawungu. 
+                                Waktu itu, saya masih seorang siswa yang penuh semangat dan antusias untuk memulai petualangan di tingkat menengah. 
+                                SMP ini adalah tempat di mana saya benar-benar memulai perjalanan pendidikan formal saya.</p>
+                        </div>
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px; left: -35px;  font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">Student at SMK Telkom Purwokerto</h5>
+                            <p class="mb-2"><strong>SMK Telkom Purwokerto</strong> | <small>2022 - 2024</small></p>
+                            <p>Saat ini, saya sedang menjalani perjalanan pendidikan yang sangat berarti sebagai siswa di SMK Telkom Purwokerto. 
+                                Keputusan untuk melanjutkan pendidikan ke tingkat sekolah menengah kejuruan ini adalah langkah penting dalam perjalanan pendidikan saya.
+                                SMK Telkom Purwokerto adalah sekolah yang dikenal karena keunggulannya dalam teknologi dan komunikasi.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <h3 class="mb-4">My Expericence</h3>
+                    <div class="border-left border-primary pt-2 pl-4 ml-2">
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px;left: -35px;  font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">Web Designer</h5>
+                            <p class="mb-2"><strong>Software</strong> | <small> Excellent</small></p>
+                            <p>Perjalanan saya sebagai seorang Web Designer dimulai dengan rasa keingintahuan dan hasrat untuk menciptakan keindahan di dunia digital. 
+                                Saya masih ingat saat-saat awal ketika saya pertama kali menjelajahi kode-kode HTML dan CSS. 
+                                Meskipun saat itu saya hanya memiliki pengetahuan yang sangat terbatas, tetapi saya merasa itu adalah awal dari sesuatu yang besar.</p>
+                        </div>
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px;left: -35px;  font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">Graphic design</h5>
+                            <p class="mb-2"><strong>Software</strong> | <small> Good</small></p>
+                            <p>Semua dimulai ketika saya belajar menggunakan perangkat lunak desain grafis di sekolah menengah. 
+                                Saat pertama kali saya membuka Adobe Photoshop, saya merasa seperti memasuki dunia baru yang penuh dengan potensi kreatif. 
+                                Saya mulai belajar tentang komposisi, warna, tipografi, dan segala hal terkait desain grafis. 
+                                Waktu terasa begitu cepat berlalu ketika saya merancang berbagai proyek, mulai dari poster sekolah hingga ilustrasi digital.</p>
+                        </div>
+                        <div class="position-relative ex-me mb-4">
+                            <i class="far fa-dot-circle text-primary position-absolute" style="top: 2px;left: -35px;  font-size: 22px;"></i>
+                            <h5 class="font-weight-bold mb-1">UI/UX</h5>
+                            <p class="mb-2"><strong>Software</strong> | <small> Excellent</small></p>
+                            <p>Perjalanan saya dalam dunia UI/UX design dimulai ketika saya pertama kali berinteraksi dengan sebuah aplikasi seluler yang merubah cara saya melihat desain digital. 
+                            Aplikasi itu memiliki antarmuka yang sederhana namun sangat intuitif, membuat penggunaan aplikasi tersebut begitu lancar dan menyenangkan. 
+                            Itu adalah saat saya mulai memahami betapa pentingnya peran seorang UI/UX designer dalam menciptakan pengalaman digital yang luar biasa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Qualification End -->
+
+
+
+    <!-- Services Start: Script tersebut digunakan untuk membuat bagian "Services" atau "Layanan" dalam halaman web. 
+    Bagian ini digunakan untuk menginformasikan pengunjung tentang jenis layanan atau jasa yang ditawarkan oleh pengguna atau pemilik situs web.
+    Setiap kotak layanan memiliki ikon yang relevan dan deskripsi singkat tentang layanan tersebut. 
+    Tujuan dari script ini adalah untuk memberikan informasi yang jelas tentang layanan yang ditawarkan sehingga pengunjung dapat memahami apa yang dapat diharapkan saat menggunakan layanan ini. -->
+    <div class="container-fluid pt-5" id="service">
+        <div class="container">
+            <div class="service-h4 position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Service</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Services</h1>
+            </div>
+            <div class="row pb-3">
+                <div class="service-box col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Web Design</h4>
+                    </div>
+                    <li style="text-align: justify;">Desain dan pengembangan situs web responsif
+                    <li style="text-align: justify;">Optimisasi kinerja dan kecepatan situs web</li>
+                    <li style="text-align: justify;">Pembuatan desain tampilan yang menarik</li>
+                    <li style="text-align: justify;">Pemeliharaan dan pembaruan situs web</li>
+                    <li style="text-align: justify;">Rekomendasi desain web</li>
+                </div>
+                <div class="service-box col-lg-3 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fa fa-2x fa-laptop-code service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">UI/UX Designer</h4>
+                    </div>
+                    <li style="text-align: justify;">Rancangan antarmuka pengguna (UI) yang menarik dan estetis</li>
+                    <li style="text-align: justify;">Penelitian pengguna dan analisis UX</li>
+                    <li style="text-align: justify;">Prototyping dan pengujian UX</li>
+                    <li style="text-align: justify;">Optimisasi pengalaman pengguna (UX)</li>
+                    <li style="text-align: justify;">Rekomendasi desain UI/UX</li>
+                </div>
+                <div class="service-box col-lg-4 col-md-6 text-center mb-5">
+                    <div class="d-flex align-items-center justify-content-center mb-4">
+                        <i class="fab fa-2x fa-apple service-icon bg-primary text-white mr-3"></i>
+                        <h4 class="font-weight-bold m-0">Graphic design</h4>
+                    </div>
+                    <li style="text-align: justify;">Pembuatan logo dan identitas merek</li>
+                    <li style="text-align: justify;">Desain materi promosi, seperti brosur dan pamflet</li>
+                    <li style="text-align: justify;">Desain grafis digital untuk web dan media sosial</li>
+                    <li style="text-align: justify;">Ilustrasi kustom</li>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services End -->
+
+
+    <!-- Portfolio Start: Script tersebut digunakan untuk membuat bagian "Portfolio" atau "Galeri" dalam halaman web. 
+    Bagian ini digunakan untuk menampilkan berbagai proyek atau karya yang telah dilakukan oleh pengguna atau pemilik situs web.Setiap proyek memiliki kategori yang sesuai seperti "Design" atau "Web Design" dan dapat diakses oleh pengunjung untuk melihat proyek lebih lanjut. 
+    Tujuan dari script ini adalah untuk memamerkan berbagai proyek atau karya yang telah dilakukan oleh pengguna sehingga pengunjung dapat melihat kemampuan dan portofolio yang dimiliki.  -->
+    <div class="container-fluid pt-5 pb-3" id="portfolio">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Gallery</h1>
+                <h1 class="position-absolute text-uppercase text-primary">My Portfolio</h1>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center mb-2">
+                    <ul class="list-inline mb-4" id="portfolio-flters">
+                        <li class="btn btn-sm btn-outline-primary m-1 active" data-filter="*">All</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".design">Design</li>
+                        <li class="btn btn-sm btn-outline-primary m-1" data-filter=".development">Web design</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row portfolio-container">
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item design">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/design 1.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/design 1.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item design">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/design 2.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/design 2.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item design">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/design 3.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/design 3.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item development">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/web 1.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/web 1.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item development">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/web 2.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/web 2.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4 portfolio-item development">
+                    <div class="position-relative overflow-hidden mb-2">
+                        <img class="img-fluid rounded w-100" src="img/web 3.png" alt="">
+                        <div class="portfolio-btn bg-primary d-flex align-items-center justify-content-center">
+                            <a href="img/web 3.png" data-lightbox="portfolio">
+                                <i class="fa fa-plus text-white" style="font-size: 60px;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <!-- Portfolio End -->
+ 
+
+
+    <!-- Contact Start: Script tersebut digunakan untuk membuat bagian "Contact" atau "Kontak" dalam halaman web. 
+    Bagian ini memberikan pengguna cara untuk menghubungi pemilik atau pengelola situs web. Tujuan dari script ini adalah untuk memberikan pengunjung situs web cara untuk mengirim pesan atau pertanyaan kepada pemilik situs web atau entitas terkait. 
+    Dengan demikian, pengunjung dapat berkomunikasi dengan lebih mudah dan efisien.  -->
+    <div class="container-fluid py-5" id="contact">
+        <div class="container">
+            <div class="position-relative d-flex align-items-center justify-content-center">
+                <h1 class="display-1 text-uppercase text-white" style="-webkit-text-stroke: 1px #dee2e6;">Contact</h1>
+                <h1 class="position-absolute text-uppercase text-primary">Contact Me</h1>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="contact-form text-center">
+                        <div id="success"></div>
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                            <div class="form-row">
+                                <div class="control-group col-sm-6">
+                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                        required="required" data-validation-required-message="Please enter your name" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="control-group col-sm-6">
+                                    <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
+                                        required="required" data-validation-required-message="Please enter your email" />
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
+                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div class="control-group">
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Message"
+                                    required="required"
+                                    data-validation-required-message="Please enter your message"></textarea>
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <div>
+                                <button class="btn btn-outline-primary" type="submit" id="sendMessageButton">Send
+                                    Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Contact End -->
+
+
+    <!-- Footer Start--> 
+    <div class="container-fluid bg-primary text-white mt-5 py-1 px-sm-1 px-md-5">
+        <div class="container text-center py-5">
+            <div class="d-flex justify-content-center mb-4">
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-twitter"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-light btn-social mr-2" href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-light btn-social" href="https://instagram.com/awlknnsc?igshid=MzRlODBiNWFlZA=="><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="d-flex justify-content-center mb-3">
+                <a class="text-white" href="#">Privacy</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Terms</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">FAQs</a>
+                <span class="px-3">|</span>
+                <a class="text-white" href="#">Help</a>
+            </div>
+            <p class="m-0">&copy; <a class="text-white font-weight-bold" href="#">Awalia</a>. All Rights Reserved. Designed by <a class="text-white font-weight-bold" href="#">Awalia</a>
+            </p>
+        </div>
+    </div>
+    <!--Script tersebut digunakan untuk membuat bagian "Footer" atau "Kaki Halaman" dalam halaman web. 
+    Bagian ini biasanya terletak di bagian bawah halaman web dan berisi informasi tambahan serta tautan sosial, privasi, syarat dan ketentuan, serta tautan lain yang mungkin diperlukan.
+    Tujuan dari script ini adalah untuk memberikan informasi tambahan kepada pengunjung situs web, termasuk tautan ke media sosial pemilik situs, tautan ke halaman-halaman penting, 
+    dan informasi hak cipta dan desainer. Footer adalah bagian yang umumnya digunakan untuk menambah kredibilitas dan memberikan akses ke informasi yang relevan. -->
+    <!-- Footer End -->
+
+    <!-- Scroll to Bottom --> 
+    <i class="fa fa-2x fa-angle-down text-white scroll-to-bottom"></i>
+    <!--Script ini digunakan untuk membuat sebuah ikon atau tanda panah yang mengarah ke bawah pada halaman web. 
+    Ikon ini berfungsi sebagai tanda yang mengajak pengguna untuk menggulir ke bagian bawah halaman web.
+    ketika pengguna melihat ikon ini dan mengkliknya, halaman web akan bergulir ke bawah untuk menunjukkan konten lebih lanjut pada halaman tersebut. 
+    Ikon ini umumnya digunakan untuk memberi tahu pengguna bahwa ada lebih banyak konten di bawah yang mungkin menarik minat mereka.  -->
+
+    <!-- Back to Top -->
+<a href="#" class="btn btn-outline-dark px-3 py-2 back-to-top" id="backToTop">
+    <i class="fa fa-angle-double-up"></i>
+  </a>
+  
+    <!--Script ini digunakan untuk membuat sebuah tombol "Back to Top" pada halaman web. 
+    Tombol ini memberikan pengguna kemampuan untuk dengan cepat kembali ke bagian atas halaman web tanpa harus melakukan pengguliran manual. 
+    Ini adalah praktik umum dalam desain web untuk memberikan cara mudah bagi pengguna untuk kembali ke bagian atas halaman, terutama jika halaman tersebut sangat panjang.
+    Dengan mengklik tombol ini, pengguna akan langsung kembali ke bagian atas halaman web tanpa harus menggulir manual, yang bisa sangat berguna pada halaman yang panjang atau memiliki banyak konten. -->
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/typed/typed.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/isotope/isotope.pkgd.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
